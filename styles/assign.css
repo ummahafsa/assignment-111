@@ -59,15 +59,11 @@
         list-style: none;
         font-size: 14px;
         
-        
-      
-    }
+     }
     .failure-two ul li i{
        color: rgba(4, 109, 109, 0.941);
        margin-right: 10px;
-      
-
-    }
+      }
 
     .failure-title{
       font-size: 40px;
@@ -77,4 +73,99 @@
     .failure-description{
         margin-left: 35px;
         font-size: 14px;
+    }
+
+    /* my plan styles */
+    .plan{
+        display: flex;
+        
+        height: 350px;
+        text-align: center;
+      
+       }
+    .plan-me{
+        
+        font-size: 40px;
+    }
+    
+    .plan-sub-title{
+       justify-content: space-around;
+       padding-top: 50px;
+      
+       }
+    img{
+        margin: 0;
+        padding-bottom: 30px;
+    }
+    .web-title{
+       margin-left: 190px;
+       font-size: 18px;
+       font-weight: 700;
+    }
+    .web-description{
+        margin-left: 190px;
+        margin-top: 10px;
+        color: #757575;
+    }
+
+    /* watch styles */
+    .hand-watch{
+        height: 20px;
+        width: 600px;
+        background-image: linear-gradient(to bottom, rgba(230, 83, 54, 0.389), rgba(224, 110, 11, 0.73)), url(../images/watch.png);
+        margin-left: auto;
+        margin-right: auto;
+        padding: 130px 150px;
+        margin-bottom: 80px;
+        margin-top: 100px;
+        border-radius: 10px;
+    }
+    .watch-description{
+       padding-bottom: 120px;
+    }
+
+    .watch-title{
+       color: aliceblue;
+      font-size: 30px;
+    }
+    .call-btn{
+      background: white;
+      color: #fa6a04;
+      padding: 10px 20px;
+      margin-top: 10px;
+    }
+
+    /* footer styles */
+    .title{
+        background-color: black;
+        color: aliceblue;
+        height: 600px;
+    }
+    .description{
+        text-align: right;
+        margin-bottom: 400px;
+        padding-right: 200px;
+       
+    }
+    .icon{
+   
+    }
+    .title-zero{
+        margin-left: 200px;
+        padding-top: 120px;
+    }
+    .icon-one{
+        font-size: 35px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    .icon-two{
+        margin-bottom: 20px;
+    }
+    .icon-description{
+        margin-bottom: 20px;
+    }
+    input{
+        padding: 10px 20px;
+      margin-top: 10px;
     }
