@@ -76,37 +76,41 @@
     }
 
     /* my plan styles */
-    .plan{
-        display: flex;
-        
-        height: 350px;
-        text-align: center;
-      
-       }
-    .plan-me{
-        
-        font-size: 40px;
-    }
     
-    .plan-sub-title{
-       justify-content: space-around;
-       padding-top: 50px;
-      
-       }
-    img{
-        margin: 0;
-        padding-bottom: 30px;
+    .plan{
+
     }
-    .web-title{
-       margin-left: 190px;
-       font-size: 18px;
+    .plan h2{
+        text-align: center;
+        font-size: 36px;
+    
+    }
+    .plan-me{
+        display: flex;
+    }
+    .plan-item{
+ 
+        text-align: center;
+  
+    }
+    .plan-item h4{
+        font-size: 20px;
+       margin-left: 200px;
+       padding-top: 10px;
        font-weight: 700;
+       color: black;
     }
-    .web-description{
-        margin-left: 190px;
-        margin-top: 10px;
+    .plan-item p{
+        margin-left: 200px;
+        padding-top: 20px;
         color: #757575;
     }
+       
+     
+    
+    
+       
+       
 
     /* watch styles */
     .hand-watch{
@@ -120,52 +124,110 @@
         margin-top: 100px;
         border-radius: 10px;
     }
-    .watch-description{
-       padding-bottom: 120px;
-    }
-
+   
     .watch-title{
        color: aliceblue;
       font-size: 30px;
+      
     }
     .call-btn{
       background: white;
       color: #fa6a04;
       padding: 10px 20px;
       margin-top: 10px;
+      border-radius: 5px;
+      border-color: white;
+
+    }
+    .gradient{
+      
+        margin-bottom:20px;
     }
 
     /* footer styles */
     .title{
         background-color: black;
         color: aliceblue;
-        height: 600px;
-    }
-    .description{
-        text-align: right;
-        margin-bottom: 400px;
-        padding-right: 200px;
-       
-    }
-    .icon{
-   
-    }
-    .title-zero{
-        margin-left: 200px;
-        padding-top: 120px;
+        display: flex;
+        height: 500px;
     }
     .icon-one{
         font-size: 35px;
         font-weight: 700;
         margin-bottom: 20px;
     }
-    .icon-two{
-        margin-bottom: 20px;
-    }
     .icon-description{
         margin-bottom: 20px;
     }
-    input{
-        padding: 10px 20px;
-      margin-top: 10px;
+   
+    .title ul{
+       padding: 0;
+       margin-top: 30px;
     }
+    .title ul li{
+       list-style: none;
+       color: white;
+       margin: 0 5px;
+       display: inline-block;
+    }
+    .title ul li i{
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        color: #fa6a04;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        background-color:white;
+        font-size: 20px;
+        cursor: pointer;
+
+    } 
+    .description{
+        text-align: center;
+        width: 30%;
+        padding-left: 500px;
+        padding-top: 100px;
+        margin-right: 120px;
+       
+    }
+    .description h5{
+        font-size: 20px;
+        margin-right: 200px;
+        margin-bottom: 10px;
+    }
+    input{
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+        border-radius: 8px;
+        padding: 20px;
+        width: 250px;
+        font-size: 17px;
+    }
+    
+        ::placeholder {
+            color: white;
+        }
+        .description button{
+            padding: 20px 30px;
+            width: 150px !important;
+            background-color: white;
+            border: none;
+            color: #e65824;
+            font-size: 18px;
+            letter-spacing: .8px;
+            margin-top: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 10px;
+            margin-right: 130px;
+        }
+        .title-zero{
+            margin-left: 200px;
+            padding-top: 80px;
+        } 
+        .icon-two{
+            margin-bottom: 20px;
+        }
+    
